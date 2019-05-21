@@ -9,7 +9,7 @@
 #import "ZMMADStartModuleConfig.h"
 #import "ZMMADDBModule.h"
 #import "ZMMADBackgroundRunModule.h"
-#import "ZMMADStartBaseModule.h"
+#import "ZMMADBWeiXinShareModules.h"
 
 NSString *const kLaunchModuleClassNameKey = @"className";
 NSString *const kLaunchModuleJsonKey = @"configItems";
@@ -20,7 +20,7 @@ NSString *const kLaunchModuleJsonKey = @"configItems";
 {
     return @[@{kLaunchModuleClassNameKey:NSStringFromClass([ZMMADDBModule class])},//DB文件操作
              @{kLaunchModuleClassNameKey:NSStringFromClass([ZMMADBackgroundRunModule class])},//iOS向后台申请一段时间
-             @{kLaunchModuleClassNameKey:NSStringFromClass([ZMMADStartBaseModule class])}//微信分享
+             @{kLaunchModuleClassNameKey:NSStringFromClass([ZMMADBWeiXinShareModules class])}//微信分享
              ];
     
 }
