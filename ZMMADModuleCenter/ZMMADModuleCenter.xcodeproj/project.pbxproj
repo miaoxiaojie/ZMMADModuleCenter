@@ -17,6 +17,7 @@
 		0A32F5642293E67A0020E74E /* ZMMADModuleCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A32F5632293E67A0020E74E /* ZMMADModuleCenterUITests.m */; };
 		0A5899062293EEC20090155C /* ZMMADDBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5899052293EEC20090155C /* ZMMADDBModule.m */; };
 		0A5899092293EED50090155C /* ZMMADBackgroundRunModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5899082293EED50090155C /* ZMMADBackgroundRunModule.m */; };
+		0A58990C2293FC5D0090155C /* ZMMADBWeiXinShareModules.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58990B2293FC5D0090155C /* ZMMADBWeiXinShareModules.m */; };
 		0A6E31D42293E99700B7229B /* ZMMADStartModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E31D32293E99700B7229B /* ZMMADStartModuleConfig.m */; };
 		0A6E31D72293E9B100B7229B /* ZMMADStartBaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E31D62293E9B100B7229B /* ZMMADStartBaseModule.m */; };
 		0A6E31DA2293E9CE00B7229B /* ZMMADStartApplicationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E31D92293E9CE00B7229B /* ZMMADStartApplicationCenter.m */; };
@@ -61,6 +62,8 @@
 		0A5899052293EEC20090155C /* ZMMADDBModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMMADDBModule.m; sourceTree = "<group>"; };
 		0A5899072293EED50090155C /* ZMMADBackgroundRunModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMMADBackgroundRunModule.h; sourceTree = "<group>"; };
 		0A5899082293EED50090155C /* ZMMADBackgroundRunModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMMADBackgroundRunModule.m; sourceTree = "<group>"; };
+		0A58990A2293FC5D0090155C /* ZMMADBWeiXinShareModules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMMADBWeiXinShareModules.h; sourceTree = "<group>"; };
+		0A58990B2293FC5D0090155C /* ZMMADBWeiXinShareModules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMMADBWeiXinShareModules.m; sourceTree = "<group>"; };
 		0A6E31D22293E99700B7229B /* ZMMADStartModuleConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMMADStartModuleConfig.h; sourceTree = "<group>"; };
 		0A6E31D32293E99700B7229B /* ZMMADStartModuleConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMMADStartModuleConfig.m; sourceTree = "<group>"; };
 		0A6E31D52293E9B100B7229B /* ZMMADStartBaseModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMMADStartBaseModule.h; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 				0A5899052293EEC20090155C /* ZMMADDBModule.m */,
 				0A5899072293EED50090155C /* ZMMADBackgroundRunModule.h */,
 				0A5899082293EED50090155C /* ZMMADBackgroundRunModule.m */,
+				0A58990A2293FC5D0090155C /* ZMMADBWeiXinShareModules.h */,
+				0A58990B2293FC5D0090155C /* ZMMADBWeiXinShareModules.m */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				0A6E31D72293E9B100B7229B /* ZMMADStartBaseModule.m in Sources */,
 				0A6E31DA2293E9CE00B7229B /* ZMMADStartApplicationCenter.m in Sources */,
 				0A32F54F2293E67A0020E74E /* main.m in Sources */,
+				0A58990C2293FC5D0090155C /* ZMMADBWeiXinShareModules.m in Sources */,
 				0A32F5412293E6770020E74E /* AppDelegate.m in Sources */,
 				0A5899062293EEC20090155C /* ZMMADDBModule.m in Sources */,
 			);
